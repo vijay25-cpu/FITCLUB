@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitClub | Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #111;
+      padding: 1rem 2rem;
+    }
+
+    .logo {
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #e60000;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('gym.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #e60000;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #cc0000;
+    }
+
+    /* Features Section */
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 4rem 2rem;
+      background-color: #f9f9f9;
+    }
+
+    .feature-box {
+      max-width: 300px;
+      text-align: center;
+      margin: 1rem;
+    }
+
+    .feature-box h2 {
+      color: #e60000;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-box p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .social-links a {
+      margin: 0 1rem;
+      color: #ccc;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .social-links a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">FITCLUB</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="plan.html">Membership</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h1>Transform Your Body</h1>
+      <p>Join the movement. Be stronger, fitter, faster.</p>
+      <a href="plan.html" class="cta-button">Get Started</a>
+    </section>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="features">
+      <div class="feature-box">
+        <h2>Personal Training</h2>
+        <p>One-on-one coaching tailored to your goals and fitness level.</p>
+      </div>
+      <div class="feature-box">
+        <h2>Group Classes</h2>
+        <p>High-energy workouts led by expert instructors in a motivating environment.</p>
+      </div>
+      <div class="feature-box">
+        <h2>Modern Equipment</h2>
+        <p>Train with state-of-the-art machines and free weights for optimal results.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FitClub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
